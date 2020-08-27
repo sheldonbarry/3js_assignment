@@ -1,6 +1,8 @@
 # 3js_project
 This was a simple webGL graphics project that I had to do as part of a computer science course. The objective of the project was to learn about light sources, camera views, as well as how textures are rendered to 3D objects and 2D planes.
 
+To view the end result, navigate to https://sheldonbarry.github.io/3js_project/
+
 ## Explanation of files in this project
 
  - index.html:                The home page that loads when the project is opened. 
