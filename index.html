@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="background:#eeeeee; width:100%;">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Scene</title>
+
+<link rel="stylesheet" type="text/css" href="./css/styling.css" />
+
+<script src="RequestAnimationFrame.js"></script>
+<script src="Three.js"></script>
+<script src="scene.js"></script>
+</head>
+
+<body class="body_container">
+
+<div class="menu">
+    <div id="menu-zoomin" class="menu-item">Zoom in</div>
+    <div id="menu-zoomout" class="menu-item">Zoom out</div>
+    <div id="menu-change-direction" class="menu-item">Change direction</div>
+    <div id="menu-change-daynight" class="menu-item">Change Day/Night</div>    
+</div>
+
+<div>
+
+<table style="margin-left:auto; margin-right:auto;">
+    <tr>
+        <td><p style="padding:3px;"><input id="button-rotate" type="submit" onclick="toggleAnimate()" class="styled-button" value="Rotate on/off"></p></td>
+        <td><p style="padding:3px;"><input id="button-direction" type="submit" onclick="toggleDirection()" class="styled-button" value="Change direction"></p></td>
+        <td><p style="padding:3px;"><input id="button-daynight" type="submit" onclick="toggleDaynight()" class="styled-button" value="Day/Night"></p></td>
+        <td>
+            <p>Adjust speed:</p>
+            <input id="slide-speed" type="range" oninput="adjustSpeed()" min="0.01" max="0.1" step="0.005" value="0.01">
+        </td>
+        <td>
+            <p> Adjust zoom:</p>
+            <input id="slide-zoom" type="range" oninput="adjustZoom()" min="-10" max="10" step="1" value="0">
+        </td>
+    </tr>
+</table>
+
+<table style="margin-left:auto; margin-right:auto;">
+    <tr><td>
+        <div id="container" style="align:center; width:640px; height:480px;"></div>
+    </td></tr>
+</table>
+
+</div>
+
+<div class="footer">
+    <p>Right click anywhere on the WebGL scene for menu options.</p>
+</div>           
+
+</body>
+
+</html>

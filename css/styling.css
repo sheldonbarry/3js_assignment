@@ -1,0 +1,84 @@
+.body_container {
+
+    background:#ffffff;
+
+    /* center the page with auto left and right margins */
+    margin:0 auto;
+    max-width:1024px;
+    min-height:100%;
+
+    /*  text properties */
+    font-family:helvetica;
+    font-size:14px;
+    padding:10px;
+}  
+
+.footer {
+
+    background:#eeeeee;
+
+    /* this will center the page with zero top and bottom margin and auto left and right margins */
+    margin:0 auto;
+    max-width:1024px;
+
+    position:relative;
+    bottom:0;
+
+    /*  text properties */
+    font-family:helvetica;
+    font-size:9px;
+    text-align: center;
+    padding:0px;
+}
+
+.styled-button {
+    /* prevent browsers from custom styling */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-color:#4195FC;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    color: #FFF;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border: 1px solid #006699;
+    width:120px;
+    height:24px;
+}
+
+.styled-button:hover {
+    background-color:#00496B;
+    color: #fff;
+}
+
+.menu
+{
+    width: 150px;
+    box-shadow: 3px 3px 5px #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family:helvetica;
+    font-size:14px;
+    position: fixed;
+    display: none;
+    background-color:#eeeeee;
+}
+
+.menu-item
+{
+    height: 20px;
+}
+
+.menu-item:hover
+{
+    background-color: #6CB5FF;
+    cursor: pointer;
+}
