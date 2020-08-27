@@ -1,4 +1,4 @@
-# 3js_assignment
+# 3js_project
 This was a simple webGL graphics project that I had to do as part of a computer science course, to learn about how textures are rendered to 3D objects and 2D planes.
 
 ## Explanation of files in this project
