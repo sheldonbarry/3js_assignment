@@ -20,7 +20,7 @@ This was a simple webGL graphics project that I had to do as part of a computer 
 
 ## License
    
-fincalc is released under the MIT License.
+This code is released under the MIT License.
 
 
 
